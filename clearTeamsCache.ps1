@@ -1,4 +1,4 @@
-﻿
+# MSTeams has been the bane of my existance since the disappearance of a traditional PBX in my life. Here's a quick script to clear the cache from the program's respective appdata. relatively simple.﻿
 Write-Host "Microsoft Teams will be quit now in order to clear the cache."
 try{
     Get-Process -ProcessName Teams | Stop-Process -Force
